@@ -1,0 +1,30 @@
+{
+  "holdout_start": "2025-09-01",
+  "holdout_end": "2025-10-31",
+  "n_holdout_rows": 9523,
+  "rmse": 641.0155838095617,
+  "mape": 0.060455883700522,
+  "naive_mean_baseline_rmse": 1526.2262984310191,
+  "improvement_vs_baseline_pct": 57.99996471895851,
+  "december_predicted_rate_range": [
+    790.9558618083809,
+    823.0199471332928
+  ],
+  "feature_importance_gain": {
+    "distance": 165003.25258614495,
+    "quote_signal": 3393.126113243401,
+    "delivery_lon": 2798.203028878197,
+    "pickup_lon": 2795.2305721584707,
+    "equipment": 1282.5303791165352,
+    "pickup_effect": 794.7948254551739,
+    "weight": 540.8278754521161,
+    "pickup_lat": 505.07862251996994,
+    "doy_cos": 398.6866959631443,
+    "market_index": 346.31878335401416,
+    "delivery_effect": 336.73240981251,
+    "doy_sin": 200.51344964839518,
+    "delivery_lat": 161.71666220016778,
+    "month": 150.44991673529148,
+    "day_of_week": 57.456309808418155
+  }
+}
